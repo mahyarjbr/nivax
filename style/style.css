@@ -494,8 +494,6 @@ nav .nav__menu li:not(:last-child):not(:nth-last-child(2)):hover {
   margin-bottom: 10px;
 }
 
-.portfolio .portfolio__card {
-}
 
 .portfolio .portfolio__card img {
   border-radius: 10px;
