@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style/animate.css">
+    <link rel="stylesheet" href="style/font-awesome.css">
+
+    <link rel="stylesheet" href="lib/owlCarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="lib/owlCarousel/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/custom.css" />
+    <title>NIVAX</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-fluid py-3">
+        <div class="nav__img">
+          <img src="img/logo.png" alt="logo" />
+        </div>
+        <div class="toggle__menu">
+          <a href="#" class="toggle__menu--link">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+        </div>
+        <div class="navbar__menu--res">
+          <div class="navbar__menu--links">
+            <a href="#" class="navbar__link">خانه</a>
+            <a href="#" class="navbar__link">خدمات</a>
+            <a href="#" class="navbar__link">تماس با ما</a>
+            <a href="#" class="navbar__link">مربیان</a>
+          </div>
+        </div>
+
+        <div class="nav__menu">
+          <ul>
+            <li>خانه</li>
+            <li>صفحات</li>
+            <li>نمونه کارها</li>
+            <li>بلاگ</li>
+            <li>
+              <div class="dropdown">
+                <a href="#" class="btn-round btn-cellphone"
+                  ><i class="fas fa-phone"></i
+                ></a>
+                <div class="dropdown-content">
+                  <a href="#">051442324343 <i class="fas fa-phone"></i></a>
+                  <a href="#">info@businessname.com <i class="fas fa-envelope"></i></a>
+                  <a href="#">021342434345 <i class="fas fa-phone"></i></a>
+                </div>
+              </div>
+            </li>
+            <li><a href="#" class="sign-up btn-sign_up">ثبت نام</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- start modal -->
+    <div class="modal">
+      <div class="modal__child">
+        <form action="#" class="form">
+          <div class="close-icon"><i class="fas fa-times"></i></div>
+          <h1>ثبت نام</h1>
+          <div class="inputs">
+            <label for="email">ایمیل</label>
+            <input
+              id="email"
+              type="email"
+              placeholder="ایمیل خود را وارد کنید"
+            />
+          </div>
+          <div class="inputs">
+            <label for="password">پسورد</label>
+            <input
+              id="password"
+              type="password"
+              placeholder="رمز خود را وارد کنید"
+            />
+          </div>
+          <div class="inputs">
+            <label for="confirm-password">تکرار پسورد</label>
+            <input
+              id="confirm-password"
+              type="password"
+              placeholder="رمز خود را دوباره وارد کنید"
+            />
+          </div>
+          <input type="submit" class="submit-btn" value="ثبت نام" />
+          <p>در حال حاضر اکانت دارید؟</p>
+        </form>
+      </div>
+    </div>
+
+    <!-- end modal -->
+    <!-- start hero__section -->
+    <section class="hero__section pb120 pt120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 v-center">
+            <div class="hero__section__text">
+              <h1>ما راه حل درست و هوشمند میسازیم</h1>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+              </p>
+              <a href="#" class="sign-up btn-sign_up">ثبت نام</a>
+            </div>
+          </div>
+          <div class="col-lg-6 ">
+            <div class="hero__section__img">
+              <img src="img/designer-girl-animate.svg" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end hero__section -->
+    <!-- start services__section -->
+    <section class="services pb120 pt120">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+            <div class="services__card">
+              <img src="img/designer.svg" alt="designer" class="img-fluid" />
+              <h4>طراحی محصول</h4>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <a href=""
+                >اطلاعات بیشتر
+                <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.4s"">
+            <div class="services__card">
+              <img
+                src="img/mobile-rafiki.svg"
+                alt="designer"
+                class="img-fluid"
+              />
+              <h4>توسعه اپلیکیشن</h4>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <a href=""
+                >اطلاعات بیشتر
+                <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.6s"">
+            <div class="services__card">
+              <img
+                src="img/strategy-cuate.svg"
+                alt="designer"
+                class="img-fluid"
+              />
+              <h4>استراتژی محصول</h4>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <a href=""
+                >اطلاعات بیشتر
+                <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow animate__animated animate__fadeInUp" data-wow-delay="0.8s"">
+            <div class="services__card">
+              <img src="img/growth-ico.svg" alt="designer" class="img-fluid" />
+              <h4>رشد اینستاگرام</h4>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <a href=""
+                >اطلاعات بیشتر
+                <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end services__section -->
+
+    <!-- start about -->
+    <section class="about pb120 pt120">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-sm-12 order1">
+            <div class="about__img">
+              <img src="img/finance-cuate.svg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="about__content v-res-center">
+              <h4>ما یک آژانس خلاق هستیم</h4>
+              <h1>باهم همکاری می کنیم برای موفقیت</h1>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 order2">
+            <div class="about__content v-res-center">
+              <h4>ما یک آژانس خلاق هستیم</h4>
+              <h1>ما تجربه های زیبای دیجیتال میسازیم</h1>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 order3">
+            <div class="about__img">
+              <img src="img/businessplan.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end about -->
+
+    <!-- start portfolio  -->
+    <section class="portfolio pb120 pt120">
+      <div class="container">
+        <div class="section__text text-center">
+          <h4>کارهای ما</h4>
+          <h1>کار های اخیر ما</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 wow animate__animated animate__fadeInUp"  data-wow-delay="0.2s">
+            <div class="portfolio__card text-right">
+              <img
+                src="img/image-1.jpg"
+                alt="image"
+                class="portfolio__card__img img-fluid my-3"
+              />
+              <h4>طراحی خلاقانه</h4>
+              <p>ios app</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 wow animate__animated animate__fadeInUp"  data-wow-delay="0.4s">
+            <div class="portfolio__card text-right">
+              <img src="img/image-2.jpg" alt="image" class="img-fluid my-3" />
+              <h4>طراحی بروشور</h4>
+              <p>طراحی،چاپ</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 wow animate__animated animate__fadeInUp"  data-wow-delay="0.6s">
+            <div class="portfolio__card text-right">
+              <img src="img/image-3.jpg" alt="image" class="img-fluid my-3" />
+              <h4>فروشگاه انلاین</h4>
+              <p>وب اپلیکیشن</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 wow animate__animated animate__fadeInUp"  data-wow-delay="0.8s">
+            <div class="portfolio__card text-right">
+              <img src="img/image-4.jpg" alt="image" class="img-fluid my-3" />
+              <h4>پکیج ایکون</h4>
+              <p>اندروید،ios</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 wow animate__animated animate__fadeInUp"  data-wow-delay="1s">
+            <div class="portfolio__card text-right">
+              <img src="img/image-5.jpg" alt="image" class="img-fluid my-3" />
+              <h4>ساعت هوشمند</h4>
+              <p>UI/UX</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 wow animate__animated animate__fadeInUp"  data-wow-delay="1.2s">
+            <div class="portfolio__card text-right">
+              <img
+                src="img/image-6.jpg"
+                alt="image"
+                class="img-fluid image my-3"
+              />
+              <h4>طراحی بروشور</h4>
+              <p>طراحی،چاپ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end portfolio -->
+
+    <!-- start client  -->
+
+    <section class="client pb120 pt120">
+      <div class="container">
+        <div class="section__text text-center my-3">
+          <h4>مشتریان خشنود ما</h4>
+          <h1>برخی از مشتریان ما</h1>
+        </div>
+
+        <div class="row">
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="0.2s">
+            <img src="img/logo1.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="0.4s">
+            <img src="img/logo2.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="0.6s">
+            <img src="img/logo3.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="0.8s">
+            <img src="img/logo4.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="1s">
+            <img src="img/logo5.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="1.2s">
+            <img src="img/logo6.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="1.4s">
+            <img src="img/logo7.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="1.6s">
+            <img src="img/logo8.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="1.8s">
+            <img src="img/logo9.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="2.0s">
+            <img src="img/logo10.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="2.2s">
+            <img src="img/logo11.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+          <div class="client__partner col-lg-2 col-md-3 col-sm-6 wow animate__animated animate__fadeIn"   data-wow-delay="2.4s">
+            <img src="img/logo12.png" alt="logo" />
+            <span>امریکا</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end client -->
+
+    <!-- start testiominal -->
+
+    <section class="testiominal pb120 pt120">
+      <div class="container">
+        <div class="section__text text-center my-3">
+          <h4>مشتریان خشنود ما</h4>
+          <h1>توصیفات مشتریان</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-sm-12">
+            <div class="testiominal__videos d-flex">
+              <a
+                class="testiominal__video--container"
+                href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0"
+              >
+                <img src="img/client-pic-a.jpg" alt="client" />
+                <div>
+                  <i class="fas fa-play"></i>
+                </div>
+              </a>
+
+              <a
+                class="testiominal__video--container"
+                href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&rel=0"
+              >
+                <img src="img/client-pic.jpg" alt="client" />
+                <div>
+                  <i class="fas fa-play"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12">
+            <div class="testiominal__slider owl-carousel">
+              <div class="testiominal__card">
+                <div class="testiominal__card--header my-3 d-flex">
+                  <div>
+                    <img src="img/user3.jpg" alt="user" />
+                  </div>
+                  <div>
+                    <h4>امین رضایی</h4>
+                    <p>صاحب کسب و کار</p>
+                  </div>
+                </div>
+                <div class="testiominal__card--content">
+                  <p class="text-right">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                    کاربردی می باشد
+                  </p>
+                </div>
+              </div>
+              <div class="testiominal__card">
+                <div class="testiominal__card--header my-3 d-flex">
+                  <div>
+                    <img src="img/user3.jpg" alt="user" />
+                  </div>
+                  <div>
+                    <h4>امین رضایی</h4>
+                    <p>صاحب کسب و کار</p>
+                  </div>
+                </div>
+                <div class="testiominal__card--content">
+                  <p class="text-right">
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                    با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه
+                    و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                    تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                    کاربردی می باشد
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end testiominal -->
+
+    <!-- start blog -->
+
+    <section class="blog pb120 pt120">
+      <div class="container">
+        <div class="section__text text-center">
+          <h4>چه خبر؟</h4>
+          <h1 class="mb30">آخرین پست ها</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="blog__card">
+              <div class="blog__card--img">
+                <img src="img/blog-dg-1.jpg" alt="blog" />
+              </div>
+              <div class="blog__card--content text-right">
+                <span class="my10">12تیر ، 1400</span>
+                <h5 class="my10">
+                  تمامی چیزهایی که درباره ی node.js باید بدانید
+                </h5>
+                <p class="my10">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است
+                </p>
+                <hr />
+                <span class="my10 blog__card--social"
+                  >اشتراک گذاری <i class="fab fa-facebook-f mx5"></i
+                  ><i class="fab fa-instagram mx5"></i
+                  ><i class="fab fa-twitter mx5"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="blog__card">
+              <div class="blog__card--img">
+                <img src="img/blog-dg-2.jpg" alt="blog" />
+              </div>
+              <div class="blog__card--content text-right">
+                <span class="my10">خرداد ، 1400</span>
+                <h5 class="my10">بررسی ویژگی های اصلی چارچوب Laravel 7</h5>
+                <p class="my10">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است
+                </p>
+                <hr />
+                <span class="my10 blog__card--social"
+                  >اشتراک گذاری <i class="fab fa-facebook-f mx5"></i
+                  ><i class="fab fa-instagram mx5"></i
+                  ><i class="fab fa-twitter mx5"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="blog__card">
+              <div class="blog__card--img">
+                <img src="img/blog-dg-3.jpg" alt="blog" />
+              </div>
+              <div class="blog__card--content text-right">
+                <span class="my10">فروردین ، 1400</span>
+                <h5 class="my10">
+                  بهترین اپلیکیشن ها برای توسعه موبایل اپلیکیشن
+                </h5>
+                <p class="my10">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است
+                </p>
+                <hr />
+                <span class="my10 blog__card--social"
+                  >اشتراک گذاری <i class="fab fa-facebook-f mx5"></i
+                  ><i class="fab fa-instagram mx5"></i
+                  ><i class="fab fa-twitter mx5"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end blog -->
+
+    <!-- start footer -->
+    <footer>
+      <div class="up-curves">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#111"
+            fill-opacity="1"
+            d="M0,128L120,122.7C240,117,480,107,720,90.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div class="footer__row text-right text-res-center clr-grey">
+              <img src="img/white-logo.png" class="my10" alt="logo" />
+              <p class="my10" style="line-height: 25px">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است
+              </p>
+              <span class="my10">
+                <i class="fab fa-facebook-f mx5"></i
+                ><i class="fab fa-instagram mx5"></i
+                ><i class="fab fa-twitter mx5"></i
+              ></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer__row text-right clr-grey">
+              <h5 class="clr-white">تماس با ما</h5>
+              <ul>
+                <li class="footer__contact-us">
+                  <div class="icon"><i class="fas fa-envelope"></i></div>
+                  <div class="content">
+                    <h6 class="clr-grey">ایمیل</h6>
+                    <span> info@businessname.com</span>
+                  </div>
+                </li>
+                <li class="footer__contact-us">
+                  <div class="icon"><i class="fas fa-phone"></i></div>
+                  <div class="content">
+                    <h6 class="clr-grey">تلفن</h6>
+                    <span> 0514432435</span>
+                  </div>
+                </li>
+                <li class="footer__contact-us">
+                  <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                  <div class="content">
+                    <h6 class="clr-grey">ادرس</h6>
+                    <span> مشهد-بلوار صارمی -صارمی 41</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-sm-6">
+            <div class="footer__row text-right clr-grey">
+              <h5 class="clr-white">شرکت</h5>
+              <ul class="footer__company--links">
+                <li>
+                  <a href="#">تماس</a>
+                </li>
+                <li>
+                  <a href="#">سوالات متداول</a>
+                </li>
+                <li>
+                  <a href="#">قوانین باز پرداخت</a>
+                </li>
+                <li><a href="#">حفظ حریم خصوصی</a></li>
+                <li><a href="#">شرایط و ضوابط</a></li>
+                <li><a href="#">قوانین کپی رایت</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="footer__row text-right clr-grey">
+              <h5 class="clr-white mb10">اینستاگرام</h5>
+              <ul class="footer__images">
+                <li class="footer__image">
+                  <img src="img/image-1.jpg" alt="portfolio" />
+                </li>
+                <li class="footer__image">
+                  <img src="img/image-2.jpg" alt="portfolio" />
+                </li>
+                <li class="footer__image">
+                  <img src="img/image-3.jpg" alt="portfolio" />
+                </li>
+                <li class="footer__image">
+                  <img src="img/image-4.jpg" alt="portfolio" />
+                </li>
+                <li class="footer__image">
+                  <img src="img/image-5.jpg" alt="portfolio" />
+                </li>
+                <li class="footer__image">
+                  <img src="img/image-6.jpg" alt="portfolio" />
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="lib/owlCarousel/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/wow.js"></script>
+
+    <script>
+      // wow
+      new WOW().init();
+    //  owl
+      $(document).ready(function () {
+        $(".testiominal__slider").owlCarousel({
+          rtl: true,
+          loop: true,
+          margin: 10,
+          nav: true,
+          autoplay: true,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            600: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
