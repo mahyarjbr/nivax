@@ -3,6 +3,10 @@
 const toggle = document.querySelector(".toggle__menu--link");
 const bar = document.querySelector(".bar");
 const resNavbar = document.querySelector(".navbar__menu--res");
+const resNavbarLinks = document.querySelectorAll(".navbar__menu--res .navbar__link");
+
+resNavbarLinks.forEach( item => item.addEventListener("click", function() {resNavbar.classList.remove("active")}))
+
 const close = document.querySelector(".close-icon");
 
 const signUpBtn = document.querySelectorAll(".sign-up");
